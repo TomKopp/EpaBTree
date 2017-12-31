@@ -21,12 +21,33 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="btree\btree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="btree\btree_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="btree\svg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="btree\svg_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="B-Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btree\btree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btree\compare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="btree\svg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

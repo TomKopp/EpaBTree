@@ -147,11 +147,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="btree\btree.h" />
+    <ClInclude Include="btree\btree_config.h" />
+    <ClInclude Include="btree\svg.h" />
+    <ClInclude Include="btree\svg_config.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="B-Tree.c" />
+    <ClCompile Include="btree\btree.c" />
+    <ClCompile Include="btree\compare.c" />
+    <ClCompile Include="btree\svg.c" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
