@@ -21,33 +21,33 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree\btree.h">
+    <ClInclude Include="btree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree\btree_config.h">
+    <ClInclude Include="btree_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree\svg.h">
+    <ClInclude Include="svg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree\svg_config.h">
+    <ClInclude Include="svg_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="B-Tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="btree\btree.c">
+    <ClCompile Include="stdafx.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="btree\compare.c">
+    <ClCompile Include="btree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="btree\svg.c">
+    <ClCompile Include="compare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="svg.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
