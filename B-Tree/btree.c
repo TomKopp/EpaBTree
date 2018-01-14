@@ -1,7 +1,10 @@
 #include "stdafx.h"
 
 btree create_btree() {
-	return calloc(1, sizeof(btree));
+	btree tmp = (btree)calloc(1, sizeof(btree));
+	assert(tmp);
+
+	return tmp;
 }
 
 void destroy_btree_node(node_pointer node) {
