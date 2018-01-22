@@ -21,16 +21,10 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree.h">
+    <ClInclude Include="B-TreeConfig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="btree_config.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="svg.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="svg_config.h">
+    <ClInclude Include="B-Tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,13 +35,7 @@
     <ClCompile Include="stdafx.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="btree.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="compare.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="svg.c">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
