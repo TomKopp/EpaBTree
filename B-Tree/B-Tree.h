@@ -5,7 +5,6 @@
 
 typedef struct Node
 {
-	bool isLeaf;
 	struct Node* parent;
 	size_t size;
 	int *elements;
